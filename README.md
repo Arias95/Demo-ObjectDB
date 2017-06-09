@@ -1,6 +1,8 @@
 ﻿# Tienda de antigüedades
 Aplicación demostrativa de una base de datos orientada a objetos utilizando **ObjectDB** con Java.
 
+**Descargue ObjectDB [AQUI](http://www.objectdb.com/object/db/database/download)**
+
 Proyecto realizado con NetBeans para el curso CE-3101: Bases de Datos. Instituto Tecnológico de Costa Rica.
 
 A continuación se presenta una pequeña aplicación para una compra y venta de antigüedades. Los objetos involucrados en la aplicación son:
