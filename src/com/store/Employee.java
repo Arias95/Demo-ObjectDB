@@ -1,14 +1,14 @@
 package com.store;
 
-public class Client extends Person
+public class Employee extends Person
 {
     private int salary;
     private int phoneExt;
     private String office;
     private String birthDate;
 
-    public Client(String nombre, String primerApellido, String segundoApellido, char gender, int phoneNum, int salary,
-                  int phoneExt, String office, String birthDate)
+    public Employee(String nombre, String primerApellido, String segundoApellido, char gender, int phoneNum, int salary,
+                    int phoneExt, String office, String birthDate)
     {
         super(nombre, primerApellido, segundoApellido, gender, phoneNum);
         this.salary = salary;
