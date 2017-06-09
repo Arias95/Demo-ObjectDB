@@ -3,7 +3,8 @@ package com.store;
 import javax.persistence.Id;
 import java.util.Random;
 
-public class Person {
+public class Person
+{
     @Id private int ID;
     private String nombre;
     private String primerApellido;
@@ -11,7 +12,8 @@ public class Person {
     private char gender;
     private int phoneNum;
 
-    public Person(String nombre, String primerApellido, String segundoApellido, char gender, int phoneNum) {
+    public Person(String nombre, String primerApellido, String segundoApellido, char gender, int phoneNum)
+    {
         Random rand = new Random();
         this.ID = rand.nextInt(1000) + 1;
         this.nombre = nombre;
@@ -22,52 +24,64 @@ public class Person {
     }
 
     //GETTERS:
-    public int getID() {
+    public int getID()
+    {
         return ID;
     }
 
-    public String getNombre() {
+    public String getNombre()
+    {
         return nombre;
     }
 
-    public String getPrimerApellido() {
+    public String getPrimerApellido()
+    {
         return primerApellido;
     }
 
-    public String getSegundoApellido() {
+    public String getSegundoApellido()
+    {
         return segundoApellido;
     }
 
-    public char getGender() {
+    public char getGender()
+    {
         return gender;
     }
 
-    public int getPhoneNum() {
+    public int getPhoneNum()
+    {
         return phoneNum;
     }
 
     //SETTERS:
-    public void setID(int ID) {
+    public void setID(int ID)
+    {
         this.ID = ID;
     }
 
-    public void setNombre(String nombre) {
+    public void setNombre(String nombre)
+    {
         this.nombre = nombre;
     }
 
-    public void setPrimerApellido(String primerApellido) {
+    public void setPrimerApellido(String primerApellido)
+    {
         this.primerApellido = primerApellido;
     }
 
-    public void setSegundoApellido(String segundoApellido) {
+    public void setSegundoApellido(String segundoApellido)
+    {
         this.segundoApellido = segundoApellido;
     }
 
-    public void setGender(char gender) {
+    public void setGender(char gender)
+    {
         this.gender = gender;
     }
 
-    public void setPhoneNum(int phoneNum) {
+    public void setPhoneNum(int phoneNum)
+    {
         this.phoneNum = phoneNum;
     }
 }
