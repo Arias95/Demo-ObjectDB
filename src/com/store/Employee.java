@@ -1,5 +1,7 @@
 package com.store;
+import javax.persistence.Entity;
 
+@Entity
 public class Employee extends Person
 {
     private int salary;

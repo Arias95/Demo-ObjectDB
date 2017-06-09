@@ -55,11 +55,6 @@ public class Person
     }
 
     //SETTERS:
-    public void setID(int ID)
-    {
-        this.ID = ID;
-    }
-
     public void setNombre(String nombre)
     {
         this.nombre = nombre;
